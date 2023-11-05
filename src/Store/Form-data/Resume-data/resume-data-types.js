@@ -1,0 +1,5 @@
+export const RESUME_ACTION_TYPES ={
+	SET_PROFILE:'SET_PROFILE'
+
+
+}
