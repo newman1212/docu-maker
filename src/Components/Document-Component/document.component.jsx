@@ -7,7 +7,7 @@ export const createDocument = (data) => {
 
 
 
-console.log(data.doctype)
+console.log(data.name, 'DATA.NAME')
 
 
     switch(data.doctype){

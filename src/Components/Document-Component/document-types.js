@@ -19,7 +19,7 @@ return(
    
             <view style = {styles.resumeContentAll} >
                      <view style = {styles.resumeHeader} >
-                             <Text>ELEANOR FITZGERALD</Text>
+                             <Text>{data.name}</Text>
                              <Text style={styles.resumeHeaderContent}>WEB DEVELOPER</Text>
                      </view>
 

@@ -32,7 +32,7 @@ export const resumeReducer = (state=RESUME_INITIAL_STATE, action={}) =>{
 	console.log(type,'cat type')
 
 	switch(type){
-	case RESUME_ACTION_TYPES.SET_PROFILE:
+	case RESUME_ACTION_TYPES.SET_RESUME:
 		return{
 			...state,profile:payload
 		}

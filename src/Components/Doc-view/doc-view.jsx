@@ -12,6 +12,8 @@ const DocView = () => {
 
 
     const profile = useSelector(selectProfile);
+
+    console.log(profile, "PROFILE")
    
 
 
